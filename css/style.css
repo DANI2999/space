@@ -1,11 +1,11 @@
 body {
   margin: 0;
   overflow: hidden;
+  position: relative;
   width: 100vw;
   height: 100vh;
-  background-image: url("https://user-images.githubusercontent.com/26748614/96337246-f14d4580-1085-11eb-8793-a86d929e034d.jpg");
+  background-image: url("https://user-images.githubusercontent.com/26748614/96337412-581f2e80-1087-11eb-90f3-f033a8a1b41e.jpg");
   background-size: cover;
-  backdrop-filter: brightness(50%);
 }
 
 canvas {
@@ -31,7 +31,7 @@ button {
   -webkit-font-smoothing: antialiased;
   font-weight: bold;
   cursor: pointer;
-  transition: all 0.3s;
+  transition: all 0.5s;
 }
 
 button:hover {
